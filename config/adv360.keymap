@@ -44,7 +44,7 @@
    &kp TAB      &kp Q             &kp W     &kp E      &kp R   &kp T            &macro_ctrl_space                                                                     &macro_alt_shift   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A             &kp S     &kp D      &kp F   &kp G                        &none  &kp LCMD   &kp LALT                           &kp LALT   &kp RCMD             &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z             &kp X     &kp C      &kp V   &kp B                                          &kp CAPS                          &kp PG_UP                                &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT  &kp RIGHT                             &kp BSPC   &kp DEL  &kp LCTRL                  &kp RIGHT_CONTROL  &kp ENTER           &lt 4 A          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp LEFT_CONTROL  &kp LEFT  &kp RIGHT                             &kp BSPC   &kp DEL  &kp LCTRL                  &kp RIGHT_CONTROL  &kp ENTER       &lt 4 SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -80,11 +80,11 @@
 
         layer_Nav {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans          &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans          &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                          &trans    &trans  &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                    &trans  &trans     &trans  &trans  &trans
+ &trans  &macro_alt_1  &macro_alt_2  &macro_alt_3  &macro_alt_4  &macro_alt_5            &trans                                                  &trans          &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans          &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans                            &trans                  &trans                          &trans    &trans  &trans     &trans  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                    &trans  &trans     &trans  &trans  &trans
             >;
         };
 
