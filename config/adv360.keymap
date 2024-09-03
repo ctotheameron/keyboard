@@ -80,11 +80,11 @@
 
         layer_Nav {
             bindings = <
- &trans  &macro_alt_1  &macro_alt_2  &macro_alt_3  &macro_alt_4  &macro_alt_5            &trans                                                  &trans              &trans              &trans              &trans              &trans  &trans  &trans
- &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans  &macro_alt_shift_h  &macro_alt_shift_j  &macro_alt_shift_k  &macro_alt_shift_l  &trans  &trans
- &trans        &trans        &trans        &trans        &trans        &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &kp LEFT_ARROW            &kp DOWN              &kp UP           &kp RIGHT  &trans  &trans
- &trans        &trans        &trans        &trans        &trans        &trans                            &trans                  &trans                              &trans              &trans              &trans              &trans  &trans  &trans
- &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                                  &trans              &trans              &trans  &trans  &trans
+ &trans    &macro_alt_1  &macro_alt_2  &macro_alt_3      &macro_alt_4  &macro_alt_5            &trans                                                  &trans              &trans              &trans              &trans              &trans  &trans  &trans
+ &trans          &trans        &trans        &trans            &trans        &trans            &trans                                                  &trans  &macro_alt_shift_h  &macro_alt_shift_j  &macro_alt_shift_k  &macro_alt_shift_l  &trans  &trans
+ &trans  &kp LEFT_SHIFT     &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND        &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &kp LEFT_ARROW            &kp DOWN              &kp UP           &kp RIGHT  &trans  &trans
+ &trans          &trans        &trans        &trans            &trans        &trans                            &trans                  &trans                              &trans              &trans              &trans              &trans  &trans  &trans
+ &trans          &trans        &trans        &trans            &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                                  &trans              &trans              &trans  &trans  &trans
             >;
         };
 
